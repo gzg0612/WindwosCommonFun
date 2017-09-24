@@ -1,0 +1,9 @@
+#pragma once
+
+namespace NSNET
+{
+    static const char CONST_DEFAULT_TRY_COUNT = 3;
+    enum ENDOWNSTATE { EN_WAIT, EN_BEGIN, EN_DOWNLING, EN_FINISH, EN_FAILED, EN_DEL_TASK, EN_PRIORITY_NORMAL, EN_PRIORITY_HIGH };
+};
+
+using namespace NSNET;
